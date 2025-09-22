@@ -20,5 +20,5 @@ p.blurry-01 {
 }
 
 span.blurry-02 {
-    filter: blur(0px);
+    filter: blur(1.5px);
 }
