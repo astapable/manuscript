@@ -12,3 +12,13 @@ h1 {
     letter-spacing: -0.163rem;
     text-transform: uppercase;
 }
+
+p.blurry-01 {
+    font-size: 52px;
+    color: #9D9D9D;
+    filter: blur(2.5px);
+}
+
+span.blurry-02 {
+    filter: blur(1.5px);
+}
