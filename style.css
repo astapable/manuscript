@@ -45,19 +45,19 @@ body {
     padding: 2.5rem; /* 40px */
 }
 
-article div {
-    margin-bottom: 5.25rem;
-}
-
-div h2, h3, blockquote, p {
-    margin-bottom: 2.125rem;
-}
-
-section.author {
+p.author {
     font-size: 1.5rem;
     line-height: 105%;
     text-transform: uppercase;
     color: #DD5533;
+}
+
+section {
+    margin-bottom: 5.25rem;
+}
+
+section h2, p {
+    margin-bottom: 2.15rem;
 }
 
 /* FONT STYLE */
