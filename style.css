@@ -36,6 +36,10 @@
 }
 
 /* WRAPPER STYLE */
+:root {
+    font-size: 100%;
+}
+
 body {
     font-family: "Vela Sans";
     font-size: 1.125rem; /* 18px */
