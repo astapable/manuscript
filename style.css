@@ -35,33 +35,60 @@
     font-display: swap;
 }
 
+
 /* WRAPPER STYLE */
 :root {
     font-size: 100%;
 }
 
 body {
+    box-sizing: border-box;
     font-family: "Vela Sans";
     font-size: 1.125rem; /* 18px */
     font-weight: 400;
     color: #DD5533;
     background-color: #d9d9d9;
-    padding: 2.5rem; /* 40px */
+    /* padding: 2.5rem; */
 }
+
+article {
+    display: inline-flex;
+    height: 100wh;
+    margin: 1.25rem;
+    background-color: lightblue;
+}
+
+section {
+    width: 50%;
+}
+
+section.hero {
+    width: 50%;
+    height: 100%;
+}
+
+aside {
+    width: 60%;
+    margin-inline: -1.6rem;
+    margin-block: -2.2rem;;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 p.author {
     font-size: 1.5rem;
     line-height: 105%;
     text-transform: uppercase;
     color: #DD5533;
-}
-
-section {
-    margin-bottom: 5.25rem;
-}
-
-section h2, p {
-    margin-bottom: 2.15rem;
 }
 
 /* FONT STYLE */
