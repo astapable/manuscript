@@ -44,11 +44,13 @@ body {
     box-sizing: border-box;
     font-family: "Vela Sans";
     font-size: 1.5rem; /* 18px */
-    letter-spacing: -0.063rem;
-    line-height: 140%;
+    letter-spacing: -0.03rem;
+    line-height: 145%;
     font-weight: 400;
     color: #DD5533;
     background-color: #d9d9d9;
+    padding-inline: 1.25rem;
+    padding-block: 1.25rem;
 }
 
 section {
@@ -56,10 +58,8 @@ section {
 }
 
 p {
-    margin-block-end: 5rem;
+    margin-block-end: 4rem;
 }
-
-
 
 a:link {
     
@@ -78,7 +78,7 @@ a:hover {
     letter-spacing: 0rem;
     text-transform: uppercase;
     padding-inline-start: 32rem;
-    padding-inline-end: 1.25rem;
+    padding-inline-end: 16rem;
 }
 
 .summary-line {
@@ -88,12 +88,12 @@ a:hover {
     letter-spacing: -0.063rem;
     text-transform: uppercase;
     padding-inline-start: 32rem;
-    padding-inline-end: 1.25rem;
+    padding-inline-end: 16rem;
 }
 
 .bulk {
     padding-inline-start: 32rem;
-    padding-inline-end: 16rem;
+    padding-inline-end: 32rem;
 }
 
 blockquote {
@@ -109,7 +109,6 @@ blockquote {
     text-align: center;
     margin-block-start: 8rem;
     margin-block-end: 10rem;
-
 }
 
 .quote-top {
