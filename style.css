@@ -121,7 +121,7 @@ blockquote {
 .heading-left {
     font-size: 8.75rem;
     font-weight: 800;
-    line-height: 140%;
+    line-height: 90%;
     letter-spacing: -0.313rem;
     text-transform: uppercase;
     text-align: left;
@@ -130,13 +130,34 @@ blockquote {
 .heading-right {
     font-size: 8.75rem;
     font-weight: 800;
-    line-height: 140%;
+    line-height: 90%;
     letter-spacing: -0.313rem;
     text-transform: uppercase;
     text-align: right;
 }
 
+aside {
+    width: 100%
+}
 
+div.small {
+    width: 60%  
+}
+
+div.large{
+    width: 100%  
+}
+
+.sub-head {
+    font-size: 7.5rem;
+    font-weight: 800;
+    line-height: 90%;
+    letter-spacing: -0.188rem;
+    text-transform: uppercase;
+    color: #C1C1C1;
+    filter: blur(0.1rem);
+    opacity: 40%;
+}
 
 
 
@@ -144,12 +165,6 @@ blockquote {
 
 
 /* NEED AN UPDATE!!!!!!!!!!!!! */
-aside {
-    width: 60%;
-    margin-inline: -1.6rem;
-    margin-block: -2.2rem;;
-}
-
 h1 {
     font-size: 4.688rem; /* 75px */
     font-weight: 800;
@@ -178,13 +193,4 @@ span.footnote {
     font-size: 2.125rem; /* 34px */
     font-weight: 400;
     letter-spacing: -0.125rem;
-}
-
-h2 {
-    font-size: 4.688rem; /* 75px */
-    font-weight: 600;
-    line-height: 105%;
-    letter-spacing: -0.188rem;
-    text-transform: uppercase;
-    color: #C1C1C1;
 }
