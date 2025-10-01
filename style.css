@@ -49,13 +49,17 @@ body {
     font-weight: 400;
     color: #DD5533;
     background-color: #d9d9d9;
-    padding-inline: 0rem;
-    padding-block: 0rem;
 }
 
-article {
-    display: block;
+section {
+    margin-block-end: 14rem;
 }
+
+p {
+    margin-block-end: 5rem;
+}
+
+
 
 a:link {
     
@@ -103,15 +107,20 @@ blockquote {
     width: 70rem;
     margin-inline: auto;
     text-align: center;
+    margin-block-start: 8rem;
+    margin-block-end: 10rem;
+
 }
 
 .quote-top {
     filter: blur(0.1rem);
     position: absolute;
+    margin-block: 0rem;
 }
 
 .quote-bottom {
     filter: blur(0.188rem);
+    margin-block: 0rem;
 }
 
 .no-vis {
@@ -119,7 +128,7 @@ blockquote {
 }
 
 .heading-left {
-    font-size: 8.75rem;
+    font-size: 9rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
@@ -128,7 +137,7 @@ blockquote {
 }
 
 .heading-right {
-    font-size: 8.75rem;
+    font-size: 9rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
@@ -158,6 +167,10 @@ div.large{
     filter: blur(0.1rem);
     opacity: 40%;
 }
+
+
+
+
 
 
 
