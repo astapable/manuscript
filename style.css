@@ -29,14 +29,13 @@
 @font-face {
     font-family: "Vela Sans";
     src: url("fonts/VelaSans-Regular.woff2") format('woff2'),
-        url("fonts/VelaSans-ExtraBold.woff") format('woff');
+        url("fonts/VelaSans-Regular.woff") format('woff');
     font-weight: 400;
     font-style: normal;
     font-display: swap;
 }
 
-
-/* WRAPPER STYLE */
+/* PRETTY GOOD */
 :root {
     font-size: 100%;
 }
@@ -44,54 +43,113 @@
 body {
     box-sizing: border-box;
     font-family: "Vela Sans";
-    font-size: 1.125rem; /* 18px */
+    font-size: 1.5rem; /* 18px */
+    letter-spacing: -0.063rem;
+    line-height: 140%;
     font-weight: 400;
     color: #DD5533;
     background-color: #d9d9d9;
-    /* padding: 2.5rem; */
+    padding-inline: 0rem;
+    padding-block: 0rem;
 }
 
 article {
-    display: inline-flex;
-    height: 100wh;
-    margin: 1.25rem;
-    background-color: lightblue;
+    display: block;
 }
 
-section {
-    width: 50%;
+a:link {
+    
+    color: #DD5533;
+    text-decoration: underline;
 }
 
-section.hero {
-    width: 50%;
-    height: 100%;
+a:hover {
+    color: #9D9D9D;
 }
 
+.key-text-line {
+    font-size: 2.125rem;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0rem;
+    text-transform: uppercase;
+    padding-inline-start: 32rem;
+    padding-inline-end: 1.25rem;
+}
+
+.summary-line {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 120%;
+    letter-spacing: -0.063rem;
+    text-transform: uppercase;
+    padding-inline-start: 32rem;
+    padding-inline-end: 1.25rem;
+}
+
+.bulk {
+    padding-inline-start: 32rem;
+    padding-inline-end: 16rem;
+}
+
+blockquote {
+    font-family: "Perfectly Nineties";
+    font-size: 4em;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: -0.063rem;
+    color: #9D9D9D;
+    position: relative;
+    width: 70rem;
+    margin-inline: auto;
+    text-align: center;
+}
+
+.quote-top {
+    filter: blur(0.1rem);
+    position: absolute;
+}
+
+.quote-bottom {
+    filter: blur(0.188rem);
+}
+
+.no-vis {
+    visibility: hidden;
+}
+
+.heading-left {
+    font-size: 8.75rem;
+    font-weight: 800;
+    line-height: 140%;
+    letter-spacing: -0.313rem;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.heading-right {
+    font-size: 8.75rem;
+    font-weight: 800;
+    line-height: 140%;
+    letter-spacing: -0.313rem;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+/* NEED AN UPDATE!!!!!!!!!!!!! */
 aside {
     width: 60%;
     margin-inline: -1.6rem;
     margin-block: -2.2rem;;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-p.author {
-    font-size: 1.5rem;
-    line-height: 105%;
-    text-transform: uppercase;
-    color: #DD5533;
-}
-
-/* FONT STYLE */
 h1 {
     font-size: 4.688rem; /* 75px */
     font-weight: 800;
@@ -129,34 +187,4 @@ h2 {
     letter-spacing: -0.188rem;
     text-transform: uppercase;
     color: #C1C1C1;
-}
-
-.heading {
-    font-size: 2.125rem; /* 34px */
-    font-weight: 800;
-    line-height: 110%;
-    letter-spacing: -0.063rem;
-    text-transform: uppercase;
-    color: #DD5533;
-}
-
-blockquote {
-    font-family: "Perfectly Nineties";
-    font-size: 3.375em;
-    font-weight: 400;
-    line-height: 110%;
-    letter-spacing: -0.063rem;
-    color: #9D9D9D;
-    filter: blur(0.156rem); /* 2.5px */
-}
-
-/* LINK STYLE */
-a:link {
-    
-    color: #DD5533;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: #9D9D9D;
 }
