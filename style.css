@@ -37,11 +37,12 @@
 
 /* PRETTY GOOD */
 :root {
-    font-size: calc(100vw / 1244 * 12);
-  }
+    font-size: calc(100vw / 1440 * 12);
+    box-sizing: border-box;
+    display: block;
+}
 
 body {
-    box-sizing: border-box;
     width: 100%;
     font-family: "Vela Sans";
     font-size: 1.5rem; /* 18px */
@@ -55,17 +56,18 @@ body {
 }
 
 article.hero {
-    height: 95vh;
-    background-color: aqua;
+    /* height: 95vh; */
     margin-block-end: 1.25rem;
     position: relative;
 }
 
 section.hero-screen {
-    background-color: yellow;
+    /* background-color: yellow; */
+    position: relative;
+    margin-block-end: 10rem;
 }
 
-h2.hero-text {
+h2 {
     width: 80%;
     position: absolute;
     font-size: 8.5rem;
@@ -86,11 +88,12 @@ h1 {
     text-transform: uppercase;
     color: #DD5533;
     text-align: right;
-
+    z-index: 10;
 }
 
 section:not(:first-child) {
     margin-block-start: 10rem;
+    position:relative
 } 
 
 p:not(:first-child) {
@@ -196,7 +199,7 @@ aside.inner {
     width: 80%;
     position: absolute;
     margin-block-start: -5%;
-    font-size: 10.5rem;
+    font-size: 10rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
@@ -210,7 +213,7 @@ aside.inner {
     width: 100%;
     position: absolute;
     margin-block-start: -15%;
-    font-size: 10.5rem;
+    font-size: 10rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
@@ -220,7 +223,18 @@ aside.inner {
     opacity: 40%;
 }
 
-
+h2.hero {
+    width: 100%;
+    position: absolute;
+    font-size: 10rem;
+    font-weight: 800;
+    line-height: 90%;
+    letter-spacing: -0.313rem;
+    text-transform: uppercase;
+    color: #C1C1C1;
+    filter: blur(0.25rem);
+    opacity: 40%;
+}
 
 
 
