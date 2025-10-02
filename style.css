@@ -37,8 +37,8 @@
 
 /* PRETTY GOOD */
 :root {
-    font-size: 100%;
-}
+    font-size: calc(100vw / 1244 * 12);
+  }
 
 body {
     box-sizing: border-box;
