@@ -165,7 +165,7 @@ blockquote {
 }
 
 .heading-left {
-    font-size: 9rem;
+    font-size: 10rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
@@ -174,7 +174,7 @@ blockquote {
 }
 
 .heading-right {
-    font-size: 9rem;
+    font-size: 10rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
@@ -196,10 +196,24 @@ aside.inner {
 }
 
 .sub-head-small {
-    width: 80%;
+    width: 70%;
     position: absolute;
     margin-block-start: -5%;
-    font-size: 10rem;
+    font-size: 10.5rem;
+    font-weight: 800;
+    line-height: 90%;
+    letter-spacing: -0.313rem;
+    text-transform: uppercase;
+    color: #C1C1C1;
+    filter: blur(0.25rem);
+    opacity: 40%;
+}
+
+.sub-head-medium {
+    width: 100%;
+    position: absolute;
+    margin-block-start: -10rem;
+    font-size: 10.5rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
@@ -212,8 +226,8 @@ aside.inner {
 .sub-head-large {
     width: 100%;
     position: absolute;
-    margin-block-start: -15%;
-    font-size: 10rem;
+    margin-block-start: -15rem;
+    font-size: 10.5rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
@@ -224,9 +238,9 @@ aside.inner {
 }
 
 h2.hero {
-    width: 100%;
+    width: 90%;
     position: absolute;
-    font-size: 10rem;
+    font-size: 10.5rem;
     font-weight: 800;
     line-height: 90%;
     letter-spacing: -0.313rem;
