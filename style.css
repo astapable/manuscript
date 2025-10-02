@@ -67,19 +67,6 @@ section.hero-screen {
     margin-block-end: 10rem;
 }
 
-h2 {
-    width: 80%;
-    position: absolute;
-    font-size: 8.5rem;
-    font-weight: 800;
-    line-height: 90%;
-    letter-spacing: -0.313rem;
-    text-transform: uppercase;
-    color: #C1C1C1;
-    filter: blur(0.25rem);
-    opacity: 40%;
-}
-
 h1 {
     font-size: 12.5rem;
     font-weight: 800;
@@ -168,7 +155,7 @@ blockquote {
     font-size: 10rem;
     font-weight: 800;
     line-height: 90%;
-    letter-spacing: -0.313rem;
+    letter-spacing: -0.4rem;
     text-transform: uppercase;
     text-align: left;
 }
@@ -177,7 +164,7 @@ blockquote {
     font-size: 10rem;
     font-weight: 800;
     line-height: 90%;
-    letter-spacing: -0.313rem;
+    letter-spacing: -0.4rem;
     text-transform: uppercase;
     text-align: right;
 }
@@ -202,7 +189,7 @@ aside.inner {
     font-size: 10.5rem;
     font-weight: 800;
     line-height: 90%;
-    letter-spacing: -0.313rem;
+    letter-spacing: -0.5rem;
     text-transform: uppercase;
     color: #C1C1C1;
     filter: blur(0.25rem);
@@ -216,7 +203,7 @@ aside.inner {
     font-size: 10.5rem;
     font-weight: 800;
     line-height: 90%;
-    letter-spacing: -0.313rem;
+    letter-spacing: -0.4rem;
     text-transform: uppercase;
     color: #C1C1C1;
     filter: blur(0.25rem);
@@ -230,32 +217,22 @@ aside.inner {
     font-size: 10.5rem;
     font-weight: 800;
     line-height: 90%;
-    letter-spacing: -0.313rem;
+    letter-spacing: -0.4rem;
     text-transform: uppercase;
     color: #C1C1C1;
     filter: blur(0.25rem);
     opacity: 40%;
 }
 
-h2.hero {
-    width: 90%;
+h2 {
+    width: 95%;
     position: absolute;
     font-size: 10.5rem;
     font-weight: 800;
     line-height: 90%;
-    letter-spacing: -0.313rem;
+    letter-spacing: -0.4rem;
     text-transform: uppercase;
     color: #C1C1C1;
     filter: blur(0.25rem);
     opacity: 40%;
 }
-
-
-
-
-
-
-
-
-
-
