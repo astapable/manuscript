@@ -153,7 +153,7 @@ blockquote {
     font-weight: 400;
     line-height: 110%;
     letter-spacing: -0.063rem;
-    color: #9D9D9D;
+    color: #B2B2B2;
     position: relative;
     width: 70%;
     margin-inline: auto;
@@ -302,10 +302,8 @@ p.bottom {
     line-height: 110%;
     letter-spacing: -0.313rem;
     text-transform: uppercase;
-    color: #DD5533;
-    margin-inline-start: 13rem;
-    margin-inline-end: 11rem;
-    text-align: center;
+    color: #DD5533; 
+    margin-inline-end: 30rem;
     display: inline-block;
 }
 
