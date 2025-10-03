@@ -35,7 +35,6 @@
     font-display: swap;
 }
 
-/* PRETTY GOOD */
 :root {
     font-size: calc(100vw / 1440 * 12);
     box-sizing: border-box;
@@ -46,9 +45,9 @@
 body {
     width: 100%;
     font-family: "Vela Sans";
-    font-size: 1.5rem; /* 18px */
+    font-size: 1.65rem;
     letter-spacing: -0.03rem;
-    line-height: 145%;
+    line-height: 150%;
     font-weight: 400;
     color: #DD5533;
     background-color: #d9d9d9;
@@ -57,14 +56,18 @@ body {
     padding-block-end: 1.25rem;
 }
 
+
 article.hero {
-    /* height: 95vh; */
     margin-block-end: 1.25rem;
     position: relative;
 }
 
+section:not(:first-child) {
+    margin-block-start: 10rem;
+    position:relative
+}
+
 section.hero-screen:not(:first-child) {
-    /* background-color: yellow; */
     position: relative;
     margin-block-end: 10rem;
 }
@@ -90,28 +93,29 @@ h1 {
     letter-spacing: 8rem;
 }
 
-section:not(:first-child) {
-    margin-block-start: 10rem;
-    position:relative
-} 
+h2 {
+    width: 95%;
+    position: absolute;
+    font-size: 10.5rem;
+    font-weight: 800;
+    line-height: 90%;
+    letter-spacing: -0.4rem;
+    text-transform: uppercase;
+    color: #C1C1C1;
+    filter: blur(0.25rem);
+    opacity: 40%;
+    margin-block-start: -2.5rem;
+    margin-inline-start: -2.5rem;
+}
 
 p:not(:first-child) {
-    margin-block-start: 4rem;
-}
-
-a:link {  
-    color: #DD5533;
-    text-decoration: underline;
-}
-
-a:hover {
-    color: #9D9D9D;
+    margin-block-start: 5rem;
 }
 
 .key-text-line {
-    font-size: 2.125rem;
+    font-size: 2.3rem;
     font-weight: 400;
-    line-height: 130%;
+    line-height: 135%;
     letter-spacing: 0rem;
     text-transform: uppercase;
     padding-inline-start: 31%;
@@ -119,7 +123,7 @@ a:hover {
 }
 
 .key-text-hero {
-    font-size: 2.125rem;
+    font-size: 2.3rem;
     font-weight: 400;
     line-height: 130%;
     letter-spacing: 0rem;
@@ -131,7 +135,7 @@ a:hover {
 .summary-line {
     font-size: 3.25rem;
     font-weight: 600;
-    line-height: 110%;
+    line-height: 120%;
     letter-spacing: -0.063rem;
     text-transform: uppercase;
     padding-inline-start: 0rem;
@@ -237,7 +241,7 @@ aside.inner {
 .sub-head-large {
     width: 100%;
     position: absolute;
-    margin-block-start: -15rem;
+    margin-block-start: -12.5rem;
     font-size: 10.5rem;
     font-weight: 800;
     line-height: 90%;
@@ -249,29 +253,22 @@ aside.inner {
     margin-inline-start: -2.5rem;
 }
 
-h2 {
-    width: 95%;
-    position: absolute;
-    font-size: 10.5rem;
+strong {
     font-weight: 800;
-    line-height: 90%;
-    letter-spacing: -0.4rem;
-    text-transform: uppercase;
-    color: #C1C1C1;
-    filter: blur(0.25rem);
-    opacity: 40%;
-    margin-block-start: -2.5rem;
-    margin-inline-start: -2.5rem;
 }
 
-h3:not(:first-child) {
-	display: inline;
-	white-space: pre;
+a:link {  
+    color: #DD5533;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #9D9D9D;
 }
 
 header {
     font-size: 2.125rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 130%;
     letter-spacing: 0rem;
     text-transform: uppercase;
@@ -292,7 +289,7 @@ a.button:link {
 
 footer {
     font-size: 2.125rem;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 130%;
     letter-spacing: 0rem;
     text-transform: uppercase;
@@ -306,7 +303,8 @@ p.bottom {
     letter-spacing: -0.313rem;
     text-transform: uppercase;
     color: #DD5533;
-    margin-inline: 12rem;
+    margin-inline-start: 13rem;
+    margin-inline-end: 11rem;
     text-align: center;
     display: inline-block;
 }
@@ -315,5 +313,3 @@ nav.footer {
     display: inline-block;
     margin-inline-end: 0rem;
 }
-
-
