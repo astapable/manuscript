@@ -40,6 +40,7 @@
     font-size: calc(100vw / 1440 * 12);
     box-sizing: border-box;
     display: block;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -52,7 +53,8 @@ body {
     color: #DD5533;
     background-color: #d9d9d9;
     padding-inline: 1.25rem;
-    padding-block: 1.25rem;
+    padding-block-start: 0.55rem;
+    padding-block-end: 1.25rem;
 }
 
 article.hero {
@@ -77,14 +79,15 @@ h1 {
     text-align: right;
     z-index: 10;
     padding-inline-start: 30%;
+    padding-inline-end: 1rem;
 }
 
 .gap-01 {
-    letter-spacing: 1rem;
+    letter-spacing: 0.75rem;
 }
 
 .gap-02 {
-    letter-spacing: 8.25rem;
+    letter-spacing: 8rem;
 }
 
 section:not(:first-child) {
@@ -126,8 +129,8 @@ a:hover {
 }
 
 .summary-line {
-    font-size: 3.2rem;
-    font-weight: 800;
+    font-size: 3.25rem;
+    font-weight: 600;
     line-height: 110%;
     letter-spacing: -0.063rem;
     text-transform: uppercase;
@@ -213,6 +216,7 @@ aside.inner {
     color: #C1C1C1;
     filter: blur(0.25rem);
     opacity: 40%;
+    margin-inline-start: -2.5rem;
 }
 
 .sub-head-medium {
@@ -227,6 +231,7 @@ aside.inner {
     color: #C1C1C1;
     filter: blur(0.25rem);
     opacity: 40%;
+    margin-inline-start: -2.5rem;
 }
 
 .sub-head-large {
@@ -241,6 +246,7 @@ aside.inner {
     color: #C1C1C1;
     filter: blur(0.25rem);
     opacity: 40%;
+    margin-inline-start: -2.5rem;
 }
 
 h2 {
@@ -254,4 +260,60 @@ h2 {
     color: #C1C1C1;
     filter: blur(0.25rem);
     opacity: 40%;
+    margin-block-start: -2.5rem;
+    margin-inline-start: -2.5rem;
 }
+
+h3:not(:first-child) {
+	display: inline;
+	white-space: pre;
+}
+
+header {
+    font-size: 2.125rem;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0rem;
+    text-transform: uppercase;
+    position: fixed;
+    z-index: 99;
+    padding-block: 1rem;
+    padding-inline-start: 0.55rem;
+}
+
+nav {
+    display: inline-block;
+    margin-inline-end: 3rem;
+}
+
+a.button:link {
+    text-decoration: none;
+}
+
+footer {
+    font-size: 2.125rem;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0rem;
+    text-transform: uppercase;
+    padding-block-start: 20rem;
+}
+
+p.bottom {
+    font-size: 6rem;
+    font-weight: 800;
+    line-height: 110%;
+    letter-spacing: -0.313rem;
+    text-transform: uppercase;
+    color: #DD5533;
+    margin-inline: 12rem;
+    text-align: center;
+    display: inline-block;
+}
+
+nav.footer {
+    display: inline-block;
+    margin-inline-end: 0rem;
+}
+
+
